@@ -15,17 +15,25 @@ body{
 
 /* Header , logo */
 #logo{
+    
+   
+    border-radius: 4px;
+    
+    font-size: 200%;
+    
     color: #212721;
+    font-family: 'Pacifico', cursive;
     
 } 
-
 #header{
     text-align: center;
     background: white;
     line-height: 65px;
     font-family: 'Manrope', sans-serif;
-    color: #006341;
-    font-size: 200%;
+    color: #212721;
+    font-size: 250%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     
     
     
@@ -211,4 +219,19 @@ li{
 .header{
     font-size: xx-large;
 }
+
+
+.banner-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    height: 100vh;            /* Full viewport height */
+  }
+  
+  .banner, #message {
+    max-width: 100%;   /* Optional: Ensures the image doesn't overflow */
+    max-height: 100%;  /* Optional: Ensures the image doesn't overflow */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
